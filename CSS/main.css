@@ -26,9 +26,7 @@ body{
     margin-left:1vw;
     margin-right:1vw;
 }
-.images{
-    /* justify-items: center; */
-}
+
 .images img{
     height: 12vw;
     width: 1fr;
@@ -36,7 +34,7 @@ body{
     outline-style: groove;
     outline-color: rgba(255, 255, 255, 0.685);
     outline-width: 1vw;
-    border: 2px solid #000000;
+    border: 0.15vw solid #000000;
     
 
 
@@ -128,7 +126,7 @@ body{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row: ;
+    
     background-color: rgba(228, 220, 220, 0.3);
     align-items: center;
     justify-items: center;
@@ -141,49 +139,49 @@ body{
     padding: 0.5vw;
 }
 .link0 a:link{
-    border: 2px solid rgba(0, 3, 163, 0.795);
+    border: 0.15vw solid rgba(0, 3, 163, 0.795);
     color:rgba(0, 3, 163, 0.795);
     border-radius: 0.8vw;
 }
 .link1 a:link{
-    border: 2px solid rgba(238, 162, 238, 0.795);
+    border: 0.15vw solid rgba(238, 162, 238, 0.795);
     border-radius: 0.8vw;
     color: rgba(238, 162, 238, 0.795);
 }
 .link2 a:link{
-    border: 2px solid rgba(0, 0, 0, 0.74);
+    border: 0.15vw solid rgba(0, 0, 0, 0.74);
     border-radius: 0.8vw;
     color: rgba(0, 0, 0, 0.74);
 }
 .link0 a:visited{
-    border: 2px solid rgba(0, 3, 163, 0.795);
+    border: 0.15vw solid rgba(0, 3, 163, 0.795);
     color:rgba(0, 3, 163, 0.795);
     border-radius: 0.8vw;
 }
 .link1 a:visited{
-    border: 2px solid rgba(199, 93, 199, 0.795);
+    border: 0.15vw solid rgba(199, 93, 199, 0.795);
     border-radius: 0.8vw;
     color: rgba(199, 93, 199, 0.795);
 
 }
 .link2 a:visited{
-    border: 2px solid rgba(0, 0, 0, 0.74);
+    border: 0.15vw solid rgba(0, 0, 0, 0.74);
     border-radius: 0.8vw;
     color: rgba(0, 0, 0, 0.74);
 }
 .link0 a:hover{
-    border: 2px solid rgba(0, 3, 163, 1);
+    border: 0.15vw solid rgba(0, 3, 163, 1);
     color:rgba(0, 3, 163, 1);
     border-radius: 0.8vw;
 }
 .link1 a:hover{
-    border: 2px solid rgba(247, 141, 247, 0.87);
+    border: 0.15vw solid rgba(247, 141, 247, 0.87);
     border-radius: 0.8vw;
     color: rgba(128, 73, 128, 0.8);
 
 }
 .link2 a:hover{
-    border: 2px solid rgba(0, 0, 0, 1);
+    border: 0.15vw solid rgba(0, 0, 0, 1);
     border-radius: 0.8vw;
     color: rgba(0, 0, 0, 1);
 }
