@@ -185,3 +185,8 @@ body{
     border-radius: 0.8vw;
     color: rgba(0, 0, 0, 1);
 }
+@media screen and (max-width: 600px){
+    .foot{
+        background-color: rgb(198, 218, 206);
+        
+}
